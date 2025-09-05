@@ -10,63 +10,68 @@
 <body class="bg-gray-200 text-gray-800">
     <!-- Navigation Bar -->
     <nav class="sticky top-0 z-50 bg-white shadow-lg py-4">
-        <div class="container flex justify-between items-center">
+        <div class="container flex flex-wrap justify-between items-center">
             <a href="index.html" class="text-3xl font-bold text-gray-900">Piyash Basak</a>
-            <div class="space-x-4">
-                <a href="index.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Home</a>
-                <a href="skills.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Skills</a>
-                <a href="achievements.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Achievements</a>
-                <a href="projects.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Projects</a>
-                <a href="contests.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contests</a>
-                <a href="activities.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Activities</a>
-                <a href="contact.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contact</a>
+            <button class="mobile-menu-button md:hidden p-2 text-gray-600 hover:text-blue-800" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div class="nav-links w-full md:w-auto">
+                <a href="index.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Home</a>
+                <a href="skills.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Skills</a>
+                <a href="achievements.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Achievements</a>
+                <a href="projects.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Projects</a>
+                <a href="contests.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contests</a>
+                <a href="activities.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Activities</a>
+                <a href="contact.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contact</a>
             </div>
         </div>
     </nav>
 
     <main class="container">
         <h2 class="section-title">Competitive Programming</h2>
-        <div class="card p-8 space-y-8">
+        <div class="card p-4 sm:p-6 md:p-8 space-y-8">
             <div>
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">Contests</h3>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h4 class="text-xl font-bold text-gray-700 mb-2">Onsite Contests</h4>
-                        <ul class="list-disc list-inside space-y-2 text-gray-600">
-                            <li>21st (Top 16%) - DUET Inter University Programming Contest 2025</li>
-                            <li>21st (Top 18%) - UU Inter University Programming Contest 2025</li>
-                            <li>32nd (Top 29%) - BUET Inter University Programming Contest 2024</li>
-                            <li>32nd (Top 24%) - AUST Inter University Programming Contest 2025</li>
-                            <li>38th (Top 23%) - KUET Inter University Programming Contest 2025</li>
-                            <li>111th (Top 37%) - ICPC Dhaka Regionals 2024</li>
-                            <li>55th (Top 34%) - UIU Inter University Programming Contest 2025</li>
+                <h3 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4">Contests</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                    <div class="space-y-4">
+                        <h4 class="text-lg sm:text-xl font-bold text-gray-700 mb-2">Onsite Contests</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
+                            <li class="leading-relaxed">21st (Top 16%) - DUET Inter University Programming Contest 2025</li>
+                            <li class="leading-relaxed">21st (Top 18%) - UU Inter University Programming Contest 2025</li>
+                            <li class="leading-relaxed">32nd (Top 29%) - BUET Inter University Programming Contest 2024</li>
+                            <li class="leading-relaxed">32nd (Top 24%) - AUST Inter University Programming Contest 2025</li>
+                            <li class="leading-relaxed">38th (Top 23%) - KUET Inter University Programming Contest 2025</li>
+                            <li class="leading-relaxed">111th (Top 37%) - ICPC Dhaka Regionals 2024</li>
+                            <li class="leading-relaxed">55th (Top 34%) - UIU Inter University Programming Contest 2025</li>
                         </ul>
                     </div>
-                    <div>
-                        <h4 class="text-xl font-bold text-gray-700 mb-2">Online Ratings</h4>
-                        <ul class="list-disc list-inside space-y-2 text-gray-600">
-                            <li><a href="https://codeforces.com/profile/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Codeforces: piyash_basak (Expert, 1634)</a></li>
-                            <li><a href="https://www.codechef.com/users/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Codechef: piyash_basak (max, 1826)</a></li>
-                            <li><a href="https://atcoder.jp/users/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Atcoder: piyash_basak (max, 1091)</a></li>
+                    <div class="space-y-4">
+                        <h4 class="text-lg sm:text-xl font-bold text-gray-700 mb-2">Online Ratings</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
+                            <li class="leading-relaxed"><a href="https://codeforces.com/profile/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Codeforces: piyash_basak (Expert, 1634)</a></li>
+                            <li class="leading-relaxed"><a href="https://www.codechef.com/users/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Codechef: piyash_basak (max, 1826)</a></li>
+                            <li class="leading-relaxed"><a href="https://atcoder.jp/users/piyash_basak" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors font-medium">Atcoder: piyash_basak (max, 1091)</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             
-            <div>
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">Problem Solving Counts</h3>
-                <p class="text-gray-600 mb-4">Solved over 3500+ data structure and algorithm-based problems across numerous platforms:</p>
-                <div class="grid md:grid-cols-2 gap-4">
-                    <ul class="list-disc list-inside space-y-1 text-gray-600">
-                        <li>Codeforces - 1500+</li>
-                        <li>Atcoder - 600+</li>
-                        <li>Codechef - 400+</li>
+            <div class="space-y-4">
+                <h3 class="text-xl sm:text-2xl font-bold text-gray-800 mb-2">Problem Solving Counts</h3>
+                <p class="text-gray-600 mb-4 text-sm sm:text-base">Solved over 3500+ data structure and algorithm-based problems across numerous platforms:</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <ul class="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
+                        <li class="leading-relaxed">Codeforces - 1500+</li>
+                        <li class="leading-relaxed">Atcoder - 600+</li>
+                        <li class="leading-relaxed">Codechef - 400+</li>
                     </ul>
-                    <ul class="list-disc list-inside space-y-1 text-gray-600">
-                        <li>Leetcode - 116</li>
-                        <li>Lightoj - 64</li>
-                        <li>Spoj - 37</li>
-                        <li>Others - 1000+</li>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600 text-sm sm:text-base">
+                        <li class="leading-relaxed">Leetcode - 116</li>
+                        <li class="leading-relaxed">Lightoj - 64</li>
+                        <li class="leading-relaxed">Spoj - 37</li>
+                        <li class="leading-relaxed">Others - 1000+</li>
                     </ul>
                 </div>
             </div>

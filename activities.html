@@ -10,47 +10,54 @@
 <body class="bg-gray-200 text-gray-800">
     <!-- Navigation Bar -->
     <nav class="sticky top-0 z-50 bg-white shadow-lg py-4">
-        <div class="container flex justify-between items-center">
+        <div class="container flex flex-wrap justify-between items-center">
             <a href="index.html" class="text-3xl font-bold text-gray-900">Piyash Basak</a>
-            <div class="space-x-4">
-                <a href="index.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Home</a>
-                <a href="skills.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Skills</a>
-                <a href="achievements.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Achievements</a>
-                <a href="projects.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Projects</a>
-                <a href="contests.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contests</a>
-                <a href="activities.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Activities</a>
-                <a href="contact.html" class="text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contact</a>
+            <button class="mobile-menu-button md:hidden p-2 text-gray-600 hover:text-blue-800" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div class="nav-links w-full md:w-auto">
+                <a href="index.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Home</a>
+                <a href="skills.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Skills</a>
+                <a href="achievements.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Achievements</a>
+                <a href="projects.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Projects</a>
+                <a href="contests.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contests</a>
+                <a href="activities.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Activities</a>
+                <a href="contact.html" class="block md:inline-block text-gray-600 hover:text-blue-800 transition-colors duration-300 font-medium">Contact</a>
             </div>
         </div>
     </nav>
 
     <main class="container">
         <h2 class="section-title">Extra Curricular Activities</h2>
-        <div class="card space-y-6">
-            <div>
-                <h3 class="text-2xl font-semibold mb-2 text-blue-700">ACM Wings Software Engineering Club</h3>
-                <h4 class="text-xl font-medium text-gray-600 mb-4">Vice President - 2025</h4>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>Supported leadership in managing the club by organizing competitive programming workshops and contests.</li>
-                    <li>Mentored members to excel in technical challenges.</li>
+        <div class="card p-4 sm:p-6 md:p-8 space-y-8">
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-xl sm:text-2xl font-semibold mb-2 text-blue-700">ACM Wings Software Engineering Club</h3>
+                <h4 class="text-lg sm:text-xl font-medium text-gray-600 mb-4">Vice President - 2025</h4>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 text-sm sm:text-base">
+                    <li class="leading-relaxed">Supported leadership in managing the club by organizing competitive programming workshops and contests.</li>
+                    <li class="leading-relaxed">Mentored members to excel in technical challenges.</li>
                 </ul>
             </div>
-            <div>
-                <h3 class="text-2xl font-semibold mb-2 text-blue-700">Problem Setting and Judging Director</h3>
-                <p class="text-gray-600 mb-4">Directed and judged several programming contests to foster a culture of problem-solving:</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li><strong>Take-off Programming Contest:</strong> Organized for first-semester students to introduce them to programming and problem-solving.</li>
-                    <li><strong>Unlock the Algorithm Programming Contest:</strong> Arranged for sophomores to reinforce Data Structures and Algorithms concepts.</li>
-                    <li><strong>CodeTrap Programming Contest:</strong> Organized specifically for the Software Engineering Department.</li>
-                    <li><strong>Breakout The Algorithm Programming Contest:</strong> Another departmental contest to test problem-solving skills.</li>
+            
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-xl sm:text-2xl font-semibold mb-2 text-blue-700">Problem Setting and Judging Director</h3>
+                <p class="text-gray-600 mb-4 text-sm sm:text-base">Directed and judged several programming contests to foster a culture of problem-solving:</p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 text-sm sm:text-base">
+                    <li class="leading-relaxed"><strong>Take-off Programming Contest:</strong> Organized for first-semester students to introduce them to programming and problem-solving.</li>
+                    <li class="leading-relaxed"><strong>Unlock the Algorithm Programming Contest:</strong> Arranged for sophomores to reinforce Data Structures and Algorithms concepts.</li>
+                    <li class="leading-relaxed"><strong>CodeTrap Programming Contest:</strong> Organized specifically for the Software Engineering Department.</li>
+                    <li class="leading-relaxed"><strong>Breakout The Algorithm Programming Contest:</strong> Another departmental contest to test problem-solving skills.</li>
                 </ul>
             </div>
-            <div>
-                <h3 class="text-2xl font-semibold mb-2 text-blue-700">Trainer and Mentor</h3>
-                <p class="text-gray-600 mb-4">Served as a trainer and mentor for various programming camps:</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li><strong>Advanced Programming Camp:</strong> Focused on advanced Data Structures and Algorithms.</li>
-                    <li><strong>Level-2 Programming Camp:</strong> A departmental camp to build foundational programming skills.</li>
+            
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-xl sm:text-2xl font-semibold mb-2 text-blue-700">Trainer and Mentor</h3>
+                <p class="text-gray-600 mb-4 text-sm sm:text-base">Served as a trainer and mentor for various programming camps:</p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 text-sm sm:text-base">
+                    <li class="leading-relaxed"><strong>Advanced Programming Camp:</strong> Focused on advanced Data Structures and Algorithms.</li>
+                    <li class="leading-relaxed"><strong>Level-2 Programming Camp:</strong> A departmental camp to build foundational programming skills.</li>
                 </ul>
             </div>
         </div>
